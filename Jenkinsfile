@@ -10,7 +10,7 @@ node {
     def SF_INSTANCE_URL = env.SF_INSTANCE_URL ?: "https://test.salesforce.com"
 
 
-    def toolbelt = tool '/usr/local/bin/sfdx'
+    def toolbelt = tool '/usr/local/bin'
 
 
     // -------------------------------------------------------------------------
