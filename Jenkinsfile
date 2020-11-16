@@ -12,10 +12,13 @@ node {
 
     def toolbelt = tool 'toolbelt'
     
-    print(SERVER_KEY_CREDENTIALS_ID)
-    print(SF_CONSUMER_KEY)
-    print( SF_USERNAME)
     
+    echo " =========== ^^^^^^^^^^^^ Reading config from pipeline script "
+    echo SERVER_KEY_CREDENTIALS_ID
+    echo SF_CONSUMER_KEY
+    echo SF_USERNAME
+    echo " =========== ~~~~~~~~~~~~ ============ "
+
 
 
     // -------------------------------------------------------------------------
