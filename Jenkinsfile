@@ -18,6 +18,8 @@ node {
     echo SF_CONSUMER_KEY
     echo SF_USERNAME
     echo env.BUILD_USER_ID
+
+    echo env.BUILD_USER
     echo " =========== ~~~~~~~~~~~~ ============ "
 
 
