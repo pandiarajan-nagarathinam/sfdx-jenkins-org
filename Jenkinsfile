@@ -11,6 +11,11 @@ node {
 
 
     def toolbelt = tool 'toolbelt'
+    
+    print(SERVER_KEY_CREDENTIALS_ID)
+    print(SF_CONSUMER_KEY)
+    print( SF_USERNAME)
+    
 
 
     // -------------------------------------------------------------------------
