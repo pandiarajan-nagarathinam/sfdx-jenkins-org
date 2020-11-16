@@ -17,7 +17,7 @@ node {
     echo SERVER_KEY_CREDENTIALS_ID
     echo SF_CONSUMER_KEY
     echo SF_USERNAME
-    echo whoami
+    sh "echo whoami"
     echo " =========== ~~~~~~~~~~~~ ============ "
 
 
